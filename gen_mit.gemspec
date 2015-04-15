@@ -1,7 +1,7 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
+lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'gen_mit/version'
+require "gen_mit/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "gen_mit"
@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["284km"]
   spec.email         = ["at284km@gmail.com"]
 
-  spec.summary       = %q{Generate MIT LICENSE.txt.}
-  spec.description   = %q{Generate MIT LICENSE.txt.}
+  spec.summary       = "Generate MIT LICENSE.txt."
+  spec.description   = "Generate MIT LICENSE.txt."
   spec.homepage      = "https://github.com/284km/gen_mit"
   spec.license       = "MIT"
 

@@ -1,5 +1,5 @@
-require 'spec_helper'
-require 'rspec/temp_dir'
+require "spec_helper"
+require "rspec/temp_dir"
 require "pathname"
 
 describe GenMit do
@@ -29,7 +29,7 @@ THE SOFTWARE.
 EOS
   end
 
-  it 'has a version number' do
+  it "has a version number" do
     expect(GenMit::VERSION).not_to be nil
   end
 
@@ -44,24 +44,24 @@ EOS
       "#{temp_dir}/LICENSE.txt"
     end
 
-    it 'should write MIT License to stdout' do
+    it "should write MIT License to stdout" do
       $stdout = StringIO.new
       Dir.chdir(temp_dir) do
         GenMit.call
       end
-      expect($stdout.string).to eq (mit_license)
+      expect($stdout.string).to eq(mit_license)
     end
 
-    it 'should write MIT License to LICENSE.txt instead of stdout' do
+    it "should write MIT License to LICENSE.txt instead of stdout" do
       Dir.chdir(temp_dir) do
         GenMit.call
       end
-      expect(File.read(out_file)).to eq (mit_license)
+      expect(File.read(out_file)).to eq(mit_license)
     end
   end
 
   describe ".license" do
-    it 'should return MIT License' do
+    it "should return MIT License" do
       expect(GenMit.license).to eq(mit_license)
     end
   end

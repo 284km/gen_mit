@@ -1,9 +1,8 @@
 require "gen_mit/version"
 
 module GenMit
-
   def self.call
-    File.write("LICENSE.txt", license.tap{|s| puts s})
+    File.write("LICENSE.txt", license.tap { |s| puts s })
   end
 
   def self.license
