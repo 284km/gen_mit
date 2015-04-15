@@ -1,5 +1,7 @@
 # GenMit
 
+[![Gem Version](https://badge.fury.io/rb/gen_mit.svg)](http://badge.fury.io/rb/gen_mit)
+
 Generate MIT `LICENSE.txt`.
 
 ## Installation
