@@ -1,6 +1,9 @@
 # GenMit
 
 [![Gem Version](https://badge.fury.io/rb/gen_mit.svg)](http://badge.fury.io/rb/gen_mit)
+[![Build Status](https://travis-ci.org/284km/gen_mit.svg?branch=master)](https://travis-ci.org/284km/gen_mit)
+[![Code Climate](https://codeclimate.com/repos/552e21a6e30ba008be004a7a/badges/89f0bfebf07e003f47b1/gpa.svg)](https://codeclimate.com/repos/552e21a6e30ba008be004a7a/feed)
+[![Dependency Status](https://gemnasium.com/284km/gen_mit.svg)](https://gemnasium.com/284km/gen_mit)
 
 Generate MIT `LICENSE.txt`.
 
